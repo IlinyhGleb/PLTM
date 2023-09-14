@@ -1,5 +1,5 @@
-#ifndef TEST_LAB1_H
-#define TEST_LAB1_H
+#ifndef TEST_LAB2_H
+#define TEST_LAB2_H
 
 #include "../../labs/lab1/task2.h"
 

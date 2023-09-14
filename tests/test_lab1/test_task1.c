@@ -1,5 +1,6 @@
 
 #include "test_lab1.h"
+#include <math.h>
 
 int test_task1(void)
 {

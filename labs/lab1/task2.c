@@ -1,3 +1,4 @@
+#include "lab1.h"
 #include <stdio.h>
 
 float task2(float a, float b, float c)

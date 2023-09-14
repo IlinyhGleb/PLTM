@@ -1,4 +1,4 @@
-
+#include "lab1.h"
 #include <stdio.h>
 
 int task1(int a, int b)

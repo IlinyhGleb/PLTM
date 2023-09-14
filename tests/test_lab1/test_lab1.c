@@ -24,13 +24,15 @@ int test_task1(void)
 
 int test_task2(void)
 {
+  const double EPSILON = 1e-4;
+
   float a = 5;
   float b = 4;
   float c = 8;
   float x;
 
   x = task2(a, b, c);
-  if (abs(x - 0.8) <= 1e-4)
+  if (fabs(x - 0.8) <= EPSILON)
   {
 	return (0);
   }

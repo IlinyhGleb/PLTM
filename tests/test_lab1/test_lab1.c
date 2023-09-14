@@ -21,3 +21,19 @@ int test_task1(void)
   }
   return (-1);
 }
+
+int test_task2(void)
+{
+  int a;
+  int b;
+  int c;
+
+  a = 4;
+  b = 3;
+  c = lab1(a, b);
+  if (c == 7)
+  {
+	return (0);
+  }
+  return (-1);
+}

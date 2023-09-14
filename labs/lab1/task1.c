@@ -1,4 +1,4 @@
-#include "lab1.h"
+#include "task1.h"
 #include <stdio.h>
 
 int task1(int a, int b)
@@ -6,28 +6,10 @@ int task1(int a, int b)
 	return a + b;
 }
 
-int task2()
-{
-    int a;
-    int b;
-    int c;
-    int x;
-
-    a = 1;
-    b = 2;
-    c = 3;
-
-    x = (c-b)/a;
-
-    printf("x=%d\n", x);
-
-	return 0;
-}
-
 
 int main()
 {
-    printf("Hello World");
+    printf("Hello World\n");
     task1(5, 6);
 
     return 0;

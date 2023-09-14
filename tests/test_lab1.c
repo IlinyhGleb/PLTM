@@ -1,6 +1,8 @@
 
-//#include "../../../algorithms/sorting/sorting.h"
-//#include "main.h"
+/**
+*#include "../../../algorithms/sorting/sorting.h"
+*#include "main.h"
+*/
 
 /**
  * test_bubble_sort - Test bubble sort

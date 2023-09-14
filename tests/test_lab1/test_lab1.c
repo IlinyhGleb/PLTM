@@ -14,7 +14,7 @@ int test_task1(void)
 
   a = 4;
   b = 3;
-  c = lab1(a, b);
+  c = task1(a, b);
   if (c == 7)
   {
 	return (0);
@@ -24,14 +24,13 @@ int test_task1(void)
 
 int test_task2(void)
 {
-  int a;
-  int b;
-  int c;
+  float a = 5;
+  float b = 4;
+  float c = 8;
+  float x;
 
-  a = 4;
-  b = 3;
-  c = lab1(a, b);
-  if (c == 7)
+  x = task2(a, b, c);
+  if (abs(x - 0.8) <= 1e-4)
   {
 	return (0);
   }

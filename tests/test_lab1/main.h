@@ -1,6 +1,5 @@
 
-#include "../labs/lab1/task1.h"
-#include "../labs/lab1/task2.h"
+#include "../../labs/lab1/lab1.h"
 
 /* Test functions */
 int test_task1(void);

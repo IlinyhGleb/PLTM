@@ -1,26 +1,16 @@
 #include <stdio.h>
 
-int task2()
+float task2(float a, float b, float c)
 {
-    int a;
-    int b;
-    int c;
-    int x;
-
-    a = 1;
-    b = 2;
-    c = 3;
-
-    x = (c-b)/a;
-
-    printf("x=%d\n", x);
-
-	return 0;
+	return (c-b)/a;
 }
 
 int main()
 {
-    task2();
+    float x;
 
+    x = task2(4.3, 3, 8);
+
+    printf("x=%f\n", x);
     return 0;
 }

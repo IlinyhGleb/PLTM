@@ -1,5 +1,6 @@
 
 #include "main.h"
+#include <math.h>
 
 /**
  * test_lab1 - Test lab1
@@ -38,3 +39,4 @@ int test_task2(void)
   }
   return (-1);
 }
+

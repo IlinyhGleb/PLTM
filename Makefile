@@ -2,8 +2,8 @@
 
 CC=gcc -Wall -Werror -Wextra -pedantic -std=gnu89
 TARGET=dsa
-CFILES=*/*.c
-HFILES=*/*.h
+CFILES=*/*/*.c
+HFILES=*/*/*.h
 
 build:
 	$(CC) $(CFILES) -o $(TARGET) -lm -g

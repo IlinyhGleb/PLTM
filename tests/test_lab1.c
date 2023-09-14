@@ -11,15 +11,16 @@
  */
 int test_lab1(void)
 {
-	int a;
-	int b;
+  int a;
+  int b;
   int c;
 
   a = 4;
   b = 3;
-  c = lab1(a, b)
-	if (c == 7)
-    return (0);
-  
-	return (-1);
+  c = lab1(a, b);
+  if (c == 7) 
+  {
+	return (0);
+  }
+  return (-1);
 }

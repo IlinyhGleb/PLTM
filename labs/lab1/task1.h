@@ -1,5 +1,5 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int lab1(int a, int b);
-int lab2();
+int task1(int a, int b);
+int task2();

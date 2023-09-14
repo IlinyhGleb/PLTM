@@ -1,12 +1,12 @@
 #include "lab1.h"
 #include <stdio.h>
 
-int lab1(int a, int b)
+int task1(int a, int b)
 {
 	return a + b;
 }
 
-int lab2()
+int task2()
 {
     int a;
     int b;
@@ -28,7 +28,7 @@ int lab2()
 int main()
 {
     printf("Hello World");
-    lab2();
+    task1(5, 6);
 
     return 0;
 }

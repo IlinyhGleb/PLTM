@@ -1,13 +1,9 @@
 
-/**
-*#include "../../../algorithms/sorting/sorting.h"
-
-*/
 #include "main.h"
-
+#include "../labs/lab1.h"
 
 /**
- * test_bubble_sort - Test bubble sort
+ * test_lab1 - Test lab1
  *
  * Return: 0 on success, -1 on failure
  */

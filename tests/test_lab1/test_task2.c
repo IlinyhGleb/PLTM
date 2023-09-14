@@ -1,5 +1,5 @@
 
-#include "test_lab1.h"
+#include "test_task2.h"
 #include <math.h>
 
 int test_task2(void)

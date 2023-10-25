@@ -1,0 +1,23 @@
+#include <stdio.h>
+/*
+ Написать и запустить программу, выводящую строку “Hello, World!” в терминал на языке программирования C.
+line to end!line to end!line to end!
+line to end!
+line to end!
+line to end!
+line to end!
+line to end!
+line to end!
+line to end!
+line to end!
+line to end!
+line to end!
+line to end!
+line to end!
+line to end!
+line to end!
+line to end!
+line to end!
+line to start!
+line to start!
+line to start!

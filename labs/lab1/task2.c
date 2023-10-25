@@ -1,17 +1,17 @@
-#include "task2.h"
 #include <stdio.h>
-
-float task2(float a, float b, float c)
-{
-	return (c-b)/a;
-}
+/*
+Написать программу, выполняющую операцию c = a + b, целые числа a, b заданы в программе. Реализовать вывод результата в виде строки, пример "с=8".
+*/
 
 int main()
 {
-    float x;
+    int a = 4.2;
+    int b = 3.8;
+    int c;
 
-    x = task2(4.3, 3, 8);
+    c = a + b;
 
-    printf("x=%f\n", x);
+    printf("c=%d\n", c);
+
     return 0;
 }

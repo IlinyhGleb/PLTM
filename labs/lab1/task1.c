@@ -1,16 +1,11 @@
-#include "task1.h"
 #include <stdio.h>
-
-int task1(int a, int b)
-{
-	return a + b;
-}
-
+/*
+ Написать и запустить программу, выводящую строку “Hello, World!” в терминал на языке программирования C.
+*/
 
 int main()
 {
     printf("Hello World\n");
-    task1(5, 6);
 
     return 0;
 }

@@ -10,7 +10,12 @@ void main()
     printf("Введите a: ");
     scanf("%f", &a);
     printf("Введите b: ");
-    scanf("%f", &b);
+
+    float *bb;
+
+    bb = &b; // пример работы указателя (*bb) на адрес памяти (&b) переменной (b)
+
+    scanf("%f", bb);
     printf("Введите c: ");
     scanf("%f", &c);
 

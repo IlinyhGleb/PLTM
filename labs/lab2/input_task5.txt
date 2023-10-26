@@ -1,0 +1,6 @@
+tomato 30
+orange 60
+apple  50
+onion  75
+potato 35
+
